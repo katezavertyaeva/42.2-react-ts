@@ -10,6 +10,10 @@ export const LoginFormWrapper = styled.form`
   border: 1px solid black;
   border-radius: 4px;
   font-family: Lato, Geneva, Tahoma, sans-serif;
+   
+   &:hover {
+    background-color: #f7e8be;
+   }
 `;
 
 export const LoginFormTitle = styled.div`

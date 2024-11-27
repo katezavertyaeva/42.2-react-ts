@@ -7,12 +7,15 @@ import Lesson07 from './lessons/Lesson07/Lesson07';
 //homeworks
 
 //consultations
+import Consultation04 from './consultations/Consultation04/Consultation04';
+
 
 function App() {
   return (
     <div className="App">
       {/* <Lesson06 /> */}
-      <Lesson07 />
+      {/* <Lesson07 /> */}
+      <Consultation04 />
     </div>
   );
 }
