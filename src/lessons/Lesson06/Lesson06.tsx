@@ -1,4 +1,5 @@
-import "./styles.css";
+import "./styles.ts";
+import { Lesson06Container } from "./styles";
 
 function Lesson06() {
   // 1. Типизация строк
@@ -122,7 +123,7 @@ function Lesson06() {
   }
 
   console.log(animal);
-  
+
 
   interface Zoo {
     animalData: Animal
@@ -138,9 +139,9 @@ function Lesson06() {
   }
 
   return (
-    <div className="lesson06-container">
+    <Lesson06Container>
       Lesson 6 - Type Script
-    </div>
+    </Lesson06Container>
   );
 }
 
