@@ -6,7 +6,7 @@ import { CounterContainer, ButtonWrapper, CounterResult } from './styles';
 import { CounterProps } from "./types.js";
 
 function Counter({ countValue, onMinus, onPlus }: CounterProps) {
-  console.log("Render");
+  // console.log("Counter render or re-render");
 
   //Шаг 2 - вызываем хук useState и передаем в него первоначальное состояние(initialState)
   //делаем деструктуризацию массива из двух элементов, который возвращает хук useState
