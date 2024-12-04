@@ -7,8 +7,13 @@ export const CounterContainer = styled.div`
   gap: 20px;
   min-width: 400px;
   padding: 20px;
-  background-color: rgb(200, 212, 216);
+  background-color: rgb(137, 162, 170);
   border-radius: 4px;
+
+  @media (max-width: 600px){
+    background-color: rgb(57, 131, 156);
+    flex-direction: column;
+  }
 `;
 
 export const ButtonWrapper = styled.div`

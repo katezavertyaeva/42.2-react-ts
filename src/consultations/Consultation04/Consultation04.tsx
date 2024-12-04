@@ -34,7 +34,7 @@ function Consultation04() {
   return (
     <Consultation04Container>
       <LoginForm />
-      <ProductItem product='milk'/>
+      {/* <ProductItem product='milk'/> */}
     </Consultation04Container>
   )
 }
