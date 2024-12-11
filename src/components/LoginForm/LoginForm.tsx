@@ -8,6 +8,8 @@ import { LoginFormWrapper, LoginFormTitle, InputsContainer } from './styles';
 import { LoginFormValue, LOGIN_FORM_NAMES } from "./types";
 
 function LoginForm() {
+  const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+
   //создаём валидационную схему через Yup
   const shema = Yup.object().shape({
     [LOGIN_FORM_NAMES.EMAIL]: Yup.string()
