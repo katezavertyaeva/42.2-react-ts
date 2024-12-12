@@ -20,6 +20,7 @@ function Layout({ children }: LayoutProps) {
         </NavContainer>
       </Header>
       <Main>
+        {/* вместо prop children происходит подстановка различного контента в Layout при изменении url */}
         {children}
       </Main>
       <Footer><LogoContainer></LogoContainer></Footer>
