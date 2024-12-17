@@ -21,6 +21,7 @@ export const LogoContainer = styled.div`
  height: 70px;
  background-color: white;
  border-radius: 50%;
+ cursor: pointer;
 `
 
 export const NavContainer = styled.nav`
