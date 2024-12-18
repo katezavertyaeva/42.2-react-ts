@@ -9,6 +9,7 @@ import Clients from 'pages/Clients/Clients';
 import Amazon from 'pages/Clients/components/Amazon/Amazon';
 import Facebook from 'pages/Clients/components/Facebook/Facebook';
 import Google from 'pages/Clients/components/Google/Google';
+import User from 'pages/Users/components/User/User';
 
 //lessons
 // import Lesson06 from './lessons/Lesson06/Lesson06';
@@ -38,6 +39,8 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/users' element={<Users />} />
+          {/* Пример консультации 7. В url добавляется параметр id(переменная) - синтаксис :id */}
+          <Route path='/users/:id' element={<User/>} />
           <Route path='/clients' element={<Clients />} />
           <Route path='/clients/amazon' element={<Amazon />} />
           <Route path='/clients/facebook' element={<Facebook />} />
