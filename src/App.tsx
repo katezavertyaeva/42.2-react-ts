@@ -24,6 +24,7 @@ import Lesson13 from 'lessons/Lesson13/Lesson13';
 // import Homework08 from './homeworks/Homework08/Homework08';
 // import Homework09 from 'homeworks/Homework09/Homework09';
 // import Homework11 from 'homeworks/Homework11/Homework11';
+import Homework13 from 'homeworks/Homeworks13/Homework13';
 
 //consultations
 // import Consultation04 from './consultations/Consultation04/Consultation04';
@@ -46,6 +47,7 @@ function App() {
           <Route path='/clients/facebook' element={<Facebook />} />
           <Route path='/clients/google' element={<Google />} />
           <Route path='/lesson13' element={<Lesson13 />} />
+          <Route path='/homework13' element={<Homework13 />} />
           <Route path='*' element='Page not found' />
         </Routes>
       </Layout>
